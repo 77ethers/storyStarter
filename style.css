@@ -1,0 +1,107 @@
+html, body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Upgraded font stack for a more modern look */
+    font-size: 1.2rem;
+    background-color: #f5fbde; /* Soft background color for a light and airy feel */
+    color: #333; /* Darker text for better readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#title {
+    font-size: 2.4rem; /* Slightly larger for a more pronounced heading */
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #333; /* Ensuring the title stands out without being overpowering */
+    text-align: center; /* Centering the title for a balanced look */
+}
+
+#text {
+    border: 1px solid #ccc; /* Subtler border for elegance */
+    border-radius: 8px; /* Rounded corners for a modern, friendly appearance */
+    max-width: 100ch;
+    min-height: 20rem; /* Adjusted height for a more practical initial view */
+    margin: auto; /* Centering the text box */
+    padding: 20px; /* Adding some inside space for text */
+    background-color: #ecf2d2; /* White background for the text area to stand out */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow-y: auto; /* Adds a scrollbar if the text overflows */
+}
+
+/* Additional Styling for Enhanced Usability and Aesthetics */
+
+/* Styling Links */
+a {
+    color: #007bff;
+    text-decoration: underline; /* Ensures links are recognizable */
+}
+
+a:hover {
+    color: #0056b3; /* Darker on hover for interaction feedback */
+}
+
+/* Enhancing Buttons for a Classier Look */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px; /* Adds a little space around buttons */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Improvements for Form Elements */
+input[type="text"], textarea {
+    width: calc(100% - 40px); /* Adjusts width to account for padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between form elements */
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Existing styles */
+
+/* Responsive adjustments for smartphones */
+@media (max-width: 1200px) { /* Targeting devices with screen width up to 600px */
+    body {
+        font-size: 1.4rem; /* Slightly larger font size for better readability */
+    }
+
+    #title {
+        font-size: 2rem; /* Adjusting the title size for smaller screens */
+    }
+
+    input[type="text"], textarea, input[type="submit"] {
+        width: 100%; /* Make input and textarea elements take full width */
+        font-size: 1.2rem; /* Increase the font size for better visibility */
+    }
+
+    #text {
+        min-height: 15rem; /* Adjusting the height for better fit on small screens */
+        padding: 15px; /* Adjust padding for space efficiency */
+    }
+
+    button {
+        padding: 12px 24px; /* Increase button padding for easier interaction */
+        font-size: 1.1rem; /* Increase font size for readability */
+    }
+}
