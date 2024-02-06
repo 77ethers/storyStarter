@@ -16,6 +16,20 @@ html, body {
     text-align: center; /* Centering the title for a balanced look */
 }
 
+.subtitle {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: #0d312c; /* A pleasant teal; feel free to choose your color */
+    font-style: italic; /* Adds a bit of flair */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the subtitle for emphasis */
+    max-width: 80%; /* Adjust width as needed */
+    margin-left: auto; /* These two lines center the div */
+    margin-right: auto;
+    line-height: 1.4; /* Improves readability */
+}
+
+
 #text {
     border: 1px solid #ccc; /* Subtler border for elegance */
     border-radius: 8px; /* Rounded corners for a modern, friendly appearance */
