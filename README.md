@@ -1,4 +1,4 @@
-# Minimal Online Text Editor
+# Forked and redesigned from the Minimal Online Text Editor
 Ephemeral texts.<br>
 No features.
 
